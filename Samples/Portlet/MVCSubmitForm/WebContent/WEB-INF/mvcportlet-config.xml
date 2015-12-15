@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<portletapp>
+    <view-screen>List</view-screen>
+    <edit-screen>Edit</edit-screen>
+    <help-screen>Help</help-screen>
+    
+    <screen id="List" input="/WEB-INF/jsp/List.jsp" control="openones.demo.mvcportlet.ctrl.ListControl">
+      <event id="search" procId="procSearch"/>
+      <event id="add" redirect="yes" nextScreen="/WEB-INF/jsp/Add.jsp"/>
+    </screen>
+    
+    <screen id="Add" input="/WEB-INF/jsp/List.jsp" control="openones.demo.mvcportlet.ctrl.AddControl">
+      <event id="save" procId="procSave" nextScreen="/WEB-INF/jsp/List.jsp"/>
+      <event id="goBack" redirect="yes" nextScreen="/WEB-INF/jsp/List.jsp"/>
+    </screen>
+    
+</portletapp>

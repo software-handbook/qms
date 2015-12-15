@@ -1,0 +1,48 @@
+﻿.ajxWait
+    {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        display: none;
+    }
+    .ajxCover
+    {
+        z-index: 1000;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background-color: Gray;
+        filter: alpha(opacity=60);
+        opacity: 0.60;
+    }
+    .ajxloading
+    {
+        position: absolute;
+        width: 100%;
+        background: transparent url(../../images/loading_bg.png) no-repeat center center;
+        top: 0;
+        left: 0;
+        height: 100%;
+        z-index: 1001;
+    }
+    .textloading
+    {
+        position: relative;
+        width: 321px;
+        height: 55px;
+        margin: auto;
+        padding-left: 170px;
+        color: #003300;
+        font-family: Arial;
+        font-size: 11px;
+        text-align: justify;
+    }
+    .textloading img
+    {
+        position: relative;
+        top: 5px;
+    }

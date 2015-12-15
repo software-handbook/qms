@@ -1,0 +1,1449 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en" class="">
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# object: http://ogp.me/ns/object# article: http://ogp.me/ns/article# profile: http://ogp.me/ns/profile#">
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Language" content="en">
+    
+    
+    <title>jquery-handsontable/jquery.handsontable.full.min.css at master · handsontable/jquery-handsontable · GitHub</title>
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+    <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-144.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144.png">
+    <meta property="fb:app_id" content="1401488693436528">
+
+      <meta content="@github" name="twitter:site" /><meta content="summary" name="twitter:card" /><meta content="handsontable/jquery-handsontable" name="twitter:title" /><meta content="jquery-handsontable - Handsontable is a minimalist approach to Excel-like table editor in HTML &amp;amp; jQuery" name="twitter:description" /><meta content="https://avatars2.githubusercontent.com/u/8068250?v=3&amp;s=400" name="twitter:image:src" />
+<meta content="GitHub" property="og:site_name" /><meta content="object" property="og:type" /><meta content="https://avatars2.githubusercontent.com/u/8068250?v=3&amp;s=400" property="og:image" /><meta content="handsontable/jquery-handsontable" property="og:title" /><meta content="https://github.com/handsontable/jquery-handsontable" property="og:url" /><meta content="jquery-handsontable - Handsontable is a minimalist approach to Excel-like table editor in HTML &amp; jQuery" property="og:description" />
+
+      <meta name="browser-stats-url" content="/_stats">
+    <link rel="assets" href="https://assets-cdn.github.com/">
+    <link rel="conduit-xhr" href="https://ghconduit.com:25035">
+    
+    <meta name="pjax-timeout" content="1000">
+    
+
+    <meta name="msapplication-TileImage" content="/windows-tile.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="selected-link" value="repo_source" data-pjax-transient>
+      <meta name="google-analytics" content="UA-3769691-2">
+
+    <meta content="collector.githubapp.com" name="octolytics-host" /><meta content="collector-cdn.github.com" name="octolytics-script-host" /><meta content="github" name="octolytics-app-id" /><meta content="7645DC5B:5F97:6F1EFA2:54642203" name="octolytics-dimension-request_id" />
+    
+    <meta content="Rails, view, blob#show" name="analytics-event" />
+
+    
+    
+    <link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico">
+
+
+    <meta content="authenticity_token" name="csrf-param" />
+<meta content="u0dBJeA19XCSYt4DhISB6PK3NRJ3DF3Ims0SvyT9Ax4nns+4eVW1Syw/JbrOWxWWRlHyUTqrvxSDyAnVyhWIlQ==" name="csrf-token" />
+
+    <link href="https://assets-cdn.github.com/assets/github-1a2396c5eb371559f3a159e677a975bf1ac09b0d78f822f66a7b9158abaa8607.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="https://assets-cdn.github.com/assets/github2-abccba9753459548c0d7010174daaa5f68999442f8d297e19d72a4bb3831ba77.css" media="all" rel="stylesheet" type="text/css" />
+    
+    
+
+
+    <meta http-equiv="x-pjax-version" content="b9f2ece2689e8381fcc9b7277703d0f8">
+
+      
+  <meta name="description" content="jquery-handsontable - Handsontable is a minimalist approach to Excel-like table editor in HTML &amp; jQuery">
+  <meta name="go-import" content="github.com/handsontable/jquery-handsontable git https://github.com/handsontable/jquery-handsontable.git">
+
+  <meta content="8068250" name="octolytics-dimension-user_id" /><meta content="handsontable" name="octolytics-dimension-user_login" /><meta content="1790564" name="octolytics-dimension-repository_id" /><meta content="handsontable/jquery-handsontable" name="octolytics-dimension-repository_nwo" /><meta content="true" name="octolytics-dimension-repository_public" /><meta content="false" name="octolytics-dimension-repository_is_fork" /><meta content="1790564" name="octolytics-dimension-repository_network_root_id" /><meta content="handsontable/jquery-handsontable" name="octolytics-dimension-repository_network_root_nwo" />
+  <link href="https://github.com/handsontable/jquery-handsontable/commits/master.atom" rel="alternate" title="Recent Commits to jquery-handsontable:master" type="application/atom+xml">
+
+  </head>
+
+
+  <body class="logged_out  env-production windows vis-public page-blob">
+    <a href="#start-of-content" tabindex="1" class="accessibility-aid js-skip-to-content">Skip to content</a>
+    <div class="wrapper">
+      
+      
+      
+      
+
+
+      
+      <div class="header header-logged-out" role="banner">
+  <div class="container clearfix">
+
+    <a class="header-logo-wordmark" href="https://github.com/" ga-data-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+      <span class="mega-octicon octicon-logo-github"></span>
+    </a>
+
+    <div class="header-actions" role="navigation">
+        <a class="button primary" href="/join" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign up</a>
+      <a class="button signin" href="/login?return_to=%2Fhandsontable%2Fjquery-handsontable%2Fblob%2Fmaster%2Fdist%2Fjquery.handsontable.full.min.css" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign in</a>
+    </div>
+
+    <div class="site-search repo-scope js-site-search" role="search">
+      <form accept-charset="UTF-8" action="/handsontable/jquery-handsontable/search" class="js-site-search-form" data-global-search-url="/search" data-repo-search-url="/handsontable/jquery-handsontable/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+  <input type="text"
+    class="js-site-search-field is-clearable"
+    data-hotkey="s"
+    name="q"
+    placeholder="Search"
+    data-global-scope-placeholder="Search GitHub"
+    data-repo-scope-placeholder="Search"
+    tabindex="1"
+    autocapitalize="off">
+  <div class="scope-badge">This repository</div>
+</form>
+    </div>
+
+      <ul class="header-nav left" role="navigation">
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="/explore" data-ga-click="(Logged out) Header, go to explore, text:explore">Explore</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="/features" data-ga-click="(Logged out) Header, go to features, text:features">Features</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="https://enterprise.github.com/" data-ga-click="(Logged out) Header, go to enterprise, text:enterprise">Enterprise</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="/blog" data-ga-click="(Logged out) Header, go to blog, text:blog">Blog</a>
+          </li>
+      </ul>
+
+  </div>
+</div>
+
+
+
+      <div id="start-of-content" class="accessibility-aid"></div>
+          <div class="site" itemscope itemtype="http://schema.org/WebPage">
+    <div id="js-flash-container">
+      
+    </div>
+    <div class="pagehead repohead instapaper_ignore readability-menu">
+      <div class="container">
+        
+<ul class="pagehead-actions">
+
+
+  <li>
+      <a href="/login?return_to=%2Fhandsontable%2Fjquery-handsontable"
+    class="minibutton with-count star-button tooltipped tooltipped-n"
+    aria-label="You must be signed in to star a repository" rel="nofollow">
+    <span class="octicon octicon-star"></span>
+    Star
+  </a>
+
+    <a class="social-count js-social-count" href="/handsontable/jquery-handsontable/stargazers">
+      3,506
+    </a>
+
+  </li>
+
+    <li>
+      <a href="/login?return_to=%2Fhandsontable%2Fjquery-handsontable"
+        class="minibutton with-count js-toggler-target fork-button tooltipped tooltipped-n"
+        aria-label="You must be signed in to fork a repository" rel="nofollow">
+        <span class="octicon octicon-repo-forked"></span>
+        Fork
+      </a>
+      <a href="/handsontable/jquery-handsontable/network" class="social-count">
+        890
+      </a>
+    </li>
+</ul>
+
+        <h1 itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="entry-title public">
+          <span class="mega-octicon octicon-repo"></span>
+          <span class="author"><a href="/handsontable" class="url fn" itemprop="url" rel="author"><span itemprop="title">handsontable</span></a></span><!--
+       --><span class="path-divider">/</span><!--
+       --><strong><a href="/handsontable/jquery-handsontable" class="js-current-repository" data-pjax="#js-repo-pjax-container">jquery-handsontable</a></strong>
+
+          <span class="page-context-loader">
+            <img alt="" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+          </span>
+
+        </h1>
+      </div><!-- /.container -->
+    </div><!-- /.repohead -->
+
+    <div class="container">
+      <div class="repository-with-sidebar repo-container new-discussion-timeline  ">
+        <div class="repository-sidebar clearfix">
+            
+<nav class="sunken-menu repo-nav js-repo-nav js-sidenav-container-pjax js-octicon-loaders"
+     role="navigation"
+     data-pjax="#js-repo-pjax-container"
+     data-issue-count-url="/handsontable/jquery-handsontable/issues/counts">
+  <ul class="sunken-menu-group">
+    <li class="tooltipped tooltipped-w" aria-label="Code">
+      <a href="/handsontable/jquery-handsontable" aria-label="Code" class="selected js-selected-navigation-item sunken-menu-item" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches /handsontable/jquery-handsontable">
+        <span class="octicon octicon-code"></span> <span class="full-word">Code</span>
+        <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>    </li>
+
+      <li class="tooltipped tooltipped-w" aria-label="Issues">
+        <a href="/handsontable/jquery-handsontable/issues" aria-label="Issues" class="js-selected-navigation-item sunken-menu-item" data-hotkey="g i" data-selected-links="repo_issues repo_labels repo_milestones /handsontable/jquery-handsontable/issues">
+          <span class="octicon octicon-issue-opened"></span> <span class="full-word">Issues</span>
+          <span class="js-issue-replace-counter"></span>
+          <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+    <li class="tooltipped tooltipped-w" aria-label="Pull Requests">
+      <a href="/handsontable/jquery-handsontable/pulls" aria-label="Pull Requests" class="js-selected-navigation-item sunken-menu-item" data-hotkey="g p" data-selected-links="repo_pulls /handsontable/jquery-handsontable/pulls">
+          <span class="octicon octicon-git-pull-request"></span> <span class="full-word">Pull Requests</span>
+          <span class="js-pull-replace-counter"></span>
+          <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>    </li>
+
+
+      <li class="tooltipped tooltipped-w" aria-label="Wiki">
+        <a href="/handsontable/jquery-handsontable/wiki" aria-label="Wiki" class="js-selected-navigation-item sunken-menu-item" data-hotkey="g w" data-selected-links="repo_wiki /handsontable/jquery-handsontable/wiki">
+          <span class="octicon octicon-book"></span> <span class="full-word">Wiki</span>
+          <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+  </ul>
+  <div class="sunken-menu-separator"></div>
+  <ul class="sunken-menu-group">
+
+    <li class="tooltipped tooltipped-w" aria-label="Pulse">
+      <a href="/handsontable/jquery-handsontable/pulse" aria-label="Pulse" class="js-selected-navigation-item sunken-menu-item" data-selected-links="pulse /handsontable/jquery-handsontable/pulse">
+        <span class="octicon octicon-pulse"></span> <span class="full-word">Pulse</span>
+        <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>    </li>
+
+    <li class="tooltipped tooltipped-w" aria-label="Graphs">
+      <a href="/handsontable/jquery-handsontable/graphs" aria-label="Graphs" class="js-selected-navigation-item sunken-menu-item" data-selected-links="repo_graphs repo_contributors /handsontable/jquery-handsontable/graphs">
+        <span class="octicon octicon-graph"></span> <span class="full-word">Graphs</span>
+        <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>    </li>
+  </ul>
+
+
+</nav>
+
+              <div class="only-with-full-nav">
+                
+  
+<div class="clone-url open"
+  data-protocol-type="http"
+  data-url="/users/set_protocol?protocol_selector=http&amp;protocol_type=clone">
+  <h3><span class="text-emphasized">HTTPS</span> clone URL</h3>
+  <div class="input-group">
+    <input type="text" class="input-mini input-monospace js-url-field"
+           value="https://github.com/handsontable/jquery-handsontable.git" readonly="readonly">
+    <span class="input-group-button">
+      <button aria-label="Copy to clipboard" class="js-zeroclipboard minibutton zeroclipboard-button" data-clipboard-text="https://github.com/handsontable/jquery-handsontable.git" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+    </span>
+  </div>
+</div>
+
+  
+<div class="clone-url "
+  data-protocol-type="subversion"
+  data-url="/users/set_protocol?protocol_selector=subversion&amp;protocol_type=clone">
+  <h3><span class="text-emphasized">Subversion</span> checkout URL</h3>
+  <div class="input-group">
+    <input type="text" class="input-mini input-monospace js-url-field"
+           value="https://github.com/handsontable/jquery-handsontable" readonly="readonly">
+    <span class="input-group-button">
+      <button aria-label="Copy to clipboard" class="js-zeroclipboard minibutton zeroclipboard-button" data-clipboard-text="https://github.com/handsontable/jquery-handsontable" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+    </span>
+  </div>
+</div>
+
+
+<p class="clone-options">You can clone with
+      <a href="#" class="js-clone-selector" data-protocol="http">HTTPS</a>
+      or <a href="#" class="js-clone-selector" data-protocol="subversion">Subversion</a>.
+  <a href="https://help.github.com/articles/which-remote-url-should-i-use" class="help tooltipped tooltipped-n" aria-label="Get help on which URL is right for you.">
+    <span class="octicon octicon-question"></span>
+  </a>
+</p>
+
+
+  <a href="http://windows.github.com" class="minibutton sidebar-button" title="Save handsontable/jquery-handsontable to your computer and use it in GitHub Desktop." aria-label="Save handsontable/jquery-handsontable to your computer and use it in GitHub Desktop.">
+    <span class="octicon octicon-device-desktop"></span>
+    Clone in Desktop
+  </a>
+
+                <a href="/handsontable/jquery-handsontable/archive/master.zip"
+                   class="minibutton sidebar-button"
+                   aria-label="Download the contents of handsontable/jquery-handsontable as a zip file"
+                   title="Download the contents of handsontable/jquery-handsontable as a zip file"
+                   rel="nofollow">
+                  <span class="octicon octicon-cloud-download"></span>
+                  Download ZIP
+                </a>
+              </div>
+        </div><!-- /.repository-sidebar -->
+
+        <div id="js-repo-pjax-container" class="repository-content context-loader-container" data-pjax-container>
+          
+
+<a href="/handsontable/jquery-handsontable/blob/6260dd026f2bf65a93eda1e6910655952aadcaf6/dist/jquery.handsontable.full.min.css" class="hidden js-permalink-shortcut" data-hotkey="y">Permalink</a>
+
+<!-- blob contrib key: blob_contributors:v21:30da17f79d5f9ae4d911574cbf2b35ca -->
+
+<div class="file-navigation">
+  
+<div class="select-menu js-menu-container js-select-menu left">
+  <span class="minibutton select-menu-button js-menu-target css-truncate" data-hotkey="w"
+    data-master-branch="master"
+    data-ref="master"
+    title="master"
+    role="button" aria-label="Switch branches or tags" tabindex="0" aria-haspopup="true">
+    <span class="octicon octicon-git-branch"></span>
+    <i>branch:</i>
+    <span class="js-select-button css-truncate-target">master</span>
+  </span>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax aria-hidden="true">
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <span class="select-menu-title">Switch branches/tags</span>
+        <span class="octicon octicon-x js-menu-close" role="button" aria-label="Close"></span>
+      </div> <!-- /.select-menu-header -->
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" class="js-select-menu-tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" class="js-select-menu-tab">Tags</a>
+            </li>
+          </ul>
+        </div><!-- /.select-menu-tabs -->
+      </div><!-- /.select-menu-filters -->
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/blob/develop/dist/jquery.handsontable.full.min.css"
+                 data-name="develop"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="develop">develop</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/blob/editorTemplate/dist/jquery.handsontable.full.min.css"
+                 data-name="editorTemplate"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="editorTemplate">editorTemplate</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/blob/feature/HOT-54/dist/jquery.handsontable.full.min.css"
+                 data-name="feature/HOT-54"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="feature/HOT-54">feature/HOT-54</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/blob/feature/HOT-61/dist/jquery.handsontable.full.min.css"
+                 data-name="feature/HOT-61"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="feature/HOT-61">feature/HOT-61</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/blob/feature/ben-issue/dist/jquery.handsontable.full.min.css"
+                 data-name="feature/ben-issue"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="feature/ben-issue">feature/ben-issue</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/blob/feature/bugfix-%23902/dist/jquery.handsontable.full.min.css"
+                 data-name="feature/bugfix-#902"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="feature/bugfix-#902">feature/bugfix-#902</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/blob/feature/dom-12/dist/jquery.handsontable.full.min.css"
+                 data-name="feature/dom-12"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="feature/dom-12">feature/dom-12</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/blob/feature/dom-13/dist/jquery.handsontable.full.min.css"
+                 data-name="feature/dom-13"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="feature/dom-13">feature/dom-13</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/blob/feature/htAutocompleteArrow/dist/jquery.handsontable.full.min.css"
+                 data-name="feature/htAutocompleteArrow"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="feature/htAutocompleteArrow">feature/htAutocompleteArrow</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/blob/feature/issue-1512/dist/jquery.handsontable.full.min.css"
+                 data-name="feature/issue-1512"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="feature/issue-1512">feature/issue-1512</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/blob/feature/issue-1591/dist/jquery.handsontable.full.min.css"
+                 data-name="feature/issue-1591"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="feature/issue-1591">feature/issue-1591</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/blob/feature/issue-1657/dist/jquery.handsontable.full.min.css"
+                 data-name="feature/issue-1657"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="feature/issue-1657">feature/issue-1657</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/blob/feature/issue-1668/dist/jquery.handsontable.full.min.css"
+                 data-name="feature/issue-1668"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="feature/issue-1668">feature/issue-1668</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/blob/feature/issue-1817/dist/jquery.handsontable.full.min.css"
+                 data-name="feature/issue-1817"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="feature/issue-1817">feature/issue-1817</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/blob/feature/ply-59/dist/jquery.handsontable.full.min.css"
+                 data-name="feature/ply-59"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="feature/ply-59">feature/ply-59</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/blob/feature/ply-59-merged/dist/jquery.handsontable.full.min.css"
+                 data-name="feature/ply-59-merged"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="feature/ply-59-merged">feature/ply-59-merged</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/blob/feature/removeDragDealer/dist/jquery.handsontable.full.min.css"
+                 data-name="feature/removeDragDealer"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="feature/removeDragDealer">feature/removeDragDealer</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/blob/feature/ruleJS-issue/dist/jquery.handsontable.full.min.css"
+                 data-name="feature/ruleJS-issue"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="feature/ruleJS-issue">feature/ruleJS-issue</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/blob/gh-pages/dist/jquery.handsontable.full.min.css"
+                 data-name="gh-pages"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="gh-pages">gh-pages</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item selected">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/blob/master/dist/jquery.handsontable.full.min.css"
+                 data-name="master"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="master">master</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/blob/move_cell/dist/jquery.handsontable.full.min.css"
+                 data-name="move_cell"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="move_cell">move_cell</a>
+            </div> <!-- /.select-menu-item -->
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div> <!-- /.select-menu-list -->
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/tree/v0.10.5/dist/jquery.handsontable.full.min.css"
+                 data-name="v0.10.5"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.10.5">v0.10.5</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/tree/v0.10.4/dist/jquery.handsontable.full.min.css"
+                 data-name="v0.10.4"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.10.4">v0.10.4</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/tree/v0.10.3/dist/jquery.handsontable.full.min.css"
+                 data-name="v0.10.3"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.10.3">v0.10.3</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/tree/v0.10.2/dist/jquery.handsontable.full.min.css"
+                 data-name="v0.10.2"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.10.2">v0.10.2</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/tree/v0.10.1/dist/jquery.handsontable.full.min.css"
+                 data-name="v0.10.1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.10.1">v0.10.1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/tree/v0.10.0-beta4/dist/jquery.handsontable.full.min.css"
+                 data-name="v0.10.0-beta4"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.10.0-beta4">v0.10.0-beta4</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/tree/v0.10.0-beta3/dist/jquery.handsontable.full.min.css"
+                 data-name="v0.10.0-beta3"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.10.0-beta3">v0.10.0-beta3</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/tree/v0.10.0-beta2/dist/jquery.handsontable.full.min.css"
+                 data-name="v0.10.0-beta2"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.10.0-beta2">v0.10.0-beta2</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/tree/v0.10.0-beta1/dist/jquery.handsontable.full.min.css"
+                 data-name="v0.10.0-beta1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.10.0-beta1">v0.10.0-beta1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/tree/v0.10.0/dist/jquery.handsontable.full.min.css"
+                 data-name="v0.10.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.10.0">v0.10.0</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/tree/v0.9.19/dist/jquery.handsontable.full.min.css"
+                 data-name="v0.9.19"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.9.19">v0.9.19</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/tree/v0.9.18/dist/jquery.handsontable.full.min.css"
+                 data-name="v0.9.18"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.9.18">v0.9.18</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/tree/v0.9.17/dist/jquery.handsontable.full.min.css"
+                 data-name="v0.9.17"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.9.17">v0.9.17</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/tree/v0.9.16/dist/jquery.handsontable.full.min.css"
+                 data-name="v0.9.16"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.9.16">v0.9.16</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/tree/v0.9.15/dist/jquery.handsontable.full.min.css"
+                 data-name="v0.9.15"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.9.15">v0.9.15</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/tree/v0.9.14/dist/jquery.handsontable.full.min.css"
+                 data-name="v0.9.14"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.9.14">v0.9.14</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/tree/v0.9.13/dist/jquery.handsontable.full.min.css"
+                 data-name="v0.9.13"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.9.13">v0.9.13</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/tree/v0.9.12/dist/jquery.handsontable.full.min.css"
+                 data-name="v0.9.12"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.9.12">v0.9.12</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/tree/v0.9.11/dist/jquery.handsontable.full.min.css"
+                 data-name="v0.9.11"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.9.11">v0.9.11</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/tree/v0.9.10/dist/jquery.handsontable.full.min.css"
+                 data-name="v0.9.10"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.9.10">v0.9.10</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/tree/v0.9.9/dist/jquery.handsontable.full.min.css"
+                 data-name="v0.9.9"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.9.9">v0.9.9</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/tree/v0.9.8/dist/jquery.handsontable.full.min.css"
+                 data-name="v0.9.8"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.9.8">v0.9.8</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/tree/v0.9.7/dist/jquery.handsontable.full.min.css"
+                 data-name="v0.9.7"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.9.7">v0.9.7</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/tree/v0.9.6/dist/jquery.handsontable.full.min.css"
+                 data-name="v0.9.6"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.9.6">v0.9.6</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/tree/v0.9.5/dist/jquery.handsontable.full.min.css"
+                 data-name="v0.9.5"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.9.5">v0.9.5</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/tree/v0.9.4/dist/jquery.handsontable.full.min.css"
+                 data-name="v0.9.4"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.9.4">v0.9.4</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/tree/v0.9.3/dist/jquery.handsontable.full.min.css"
+                 data-name="v0.9.3"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.9.3">v0.9.3</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/tree/v0.9.2/dist/jquery.handsontable.full.min.css"
+                 data-name="v0.9.2"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.9.2">v0.9.2</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/tree/v0.9.1/dist/jquery.handsontable.full.min.css"
+                 data-name="v0.9.1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.9.1">v0.9.1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/tree/v0.9.0-beta2/dist/jquery.handsontable.full.min.css"
+                 data-name="v0.9.0-beta2"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.9.0-beta2">v0.9.0-beta2</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/tree/v0.9.0-beta1/dist/jquery.handsontable.full.min.css"
+                 data-name="v0.9.0-beta1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.9.0-beta1">v0.9.0-beta1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/tree/v0.9.0/dist/jquery.handsontable.full.min.css"
+                 data-name="v0.9.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.9.0">v0.9.0</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/tree/v0.8.23/dist/jquery.handsontable.full.min.css"
+                 data-name="v0.8.23"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.8.23">v0.8.23</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/tree/v0.8.22/dist/jquery.handsontable.full.min.css"
+                 data-name="v0.8.22"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.8.22">v0.8.22</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/tree/v0.8.21/dist/jquery.handsontable.full.min.css"
+                 data-name="v0.8.21"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.8.21">v0.8.21</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/tree/v0.8.20/dist/jquery.handsontable.full.min.css"
+                 data-name="v0.8.20"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.8.20">v0.8.20</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/tree/v0.8.19/dist/jquery.handsontable.full.min.css"
+                 data-name="v0.8.19"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.8.19">v0.8.19</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/tree/v0.8.18/dist/jquery.handsontable.full.min.css"
+                 data-name="v0.8.18"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.8.18">v0.8.18</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/tree/v0.8.17/dist/jquery.handsontable.full.min.css"
+                 data-name="v0.8.17"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.8.17">v0.8.17</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/tree/v0.8.16/dist/jquery.handsontable.full.min.css"
+                 data-name="v0.8.16"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.8.16">v0.8.16</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/tree/v0.8.15/dist/jquery.handsontable.full.min.css"
+                 data-name="v0.8.15"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.8.15">v0.8.15</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/tree/v0.8.14/dist/jquery.handsontable.full.min.css"
+                 data-name="v0.8.14"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.8.14">v0.8.14</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/tree/v0.8.13/dist/jquery.handsontable.full.min.css"
+                 data-name="v0.8.13"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.8.13">v0.8.13</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/tree/v0.8.12/dist/jquery.handsontable.full.min.css"
+                 data-name="v0.8.12"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.8.12">v0.8.12</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/tree/v0.8.11/dist/jquery.handsontable.full.min.css"
+                 data-name="v0.8.11"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.8.11">v0.8.11</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/tree/v0.8.10/dist/jquery.handsontable.full.min.css"
+                 data-name="v0.8.10"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.8.10">v0.8.10</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/tree/v0.8.9/dist/jquery.handsontable.full.min.css"
+                 data-name="v0.8.9"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.8.9">v0.8.9</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/tree/v0.8.8/dist/jquery.handsontable.full.min.css"
+                 data-name="v0.8.8"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.8.8">v0.8.8</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/tree/v0.8.7/dist/jquery.handsontable.full.min.css"
+                 data-name="v0.8.7"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.8.7">v0.8.7</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/tree/v0.8.6/dist/jquery.handsontable.full.min.css"
+                 data-name="v0.8.6"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.8.6">v0.8.6</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/tree/v0.8.5/dist/jquery.handsontable.full.min.css"
+                 data-name="v0.8.5"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.8.5">v0.8.5</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/tree/v0.8.4/dist/jquery.handsontable.full.min.css"
+                 data-name="v0.8.4"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.8.4">v0.8.4</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/tree/v0.8.3/dist/jquery.handsontable.full.min.css"
+                 data-name="v0.8.3"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.8.3">v0.8.3</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/tree/v0.8.2/dist/jquery.handsontable.full.min.css"
+                 data-name="v0.8.2"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.8.2">v0.8.2</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/tree/v0.8.1/dist/jquery.handsontable.full.min.css"
+                 data-name="v0.8.1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.8.1">v0.8.1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/tree/v0.8.0-beta3/dist/jquery.handsontable.full.min.css"
+                 data-name="v0.8.0-beta3"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.8.0-beta3">v0.8.0-beta3</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/tree/v0.8.0-beta2/dist/jquery.handsontable.full.min.css"
+                 data-name="v0.8.0-beta2"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.8.0-beta2">v0.8.0-beta2</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/tree/v0.8.0-beta1/dist/jquery.handsontable.full.min.css"
+                 data-name="v0.8.0-beta1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.8.0-beta1">v0.8.0-beta1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/tree/v0.8.0/dist/jquery.handsontable.full.min.css"
+                 data-name="v0.8.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.8.0">v0.8.0</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/tree/v0.7.5/dist/jquery.handsontable.full.min.css"
+                 data-name="v0.7.5"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.7.5">v0.7.5</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/tree/v0.7.4/dist/jquery.handsontable.full.min.css"
+                 data-name="v0.7.4"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.7.4">v0.7.4</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/tree/v0.7.3/dist/jquery.handsontable.full.min.css"
+                 data-name="v0.7.3"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.7.3">v0.7.3</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/tree/v0.7.2/dist/jquery.handsontable.full.min.css"
+                 data-name="v0.7.2"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.7.2">v0.7.2</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/tree/v0.7.1/dist/jquery.handsontable.full.min.css"
+                 data-name="v0.7.1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.7.1">v0.7.1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/tree/v0.7.0/dist/jquery.handsontable.full.min.css"
+                 data-name="v0.7.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.7.0">v0.7.0</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/tree/v0.6.0/dist/jquery.handsontable.full.min.css"
+                 data-name="v0.6.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.6.0">v0.6.0</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/tree/v0.5.0/dist/jquery.handsontable.full.min.css"
+                 data-name="v0.5.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.5.0">v0.5.0</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/tree/v0.4.2/dist/jquery.handsontable.full.min.css"
+                 data-name="v0.4.2"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.4.2">v0.4.2</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/tree/v0.4.1/dist/jquery.handsontable.full.min.css"
+                 data-name="v0.4.1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.4.1">v0.4.1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/tree/v0.4.0/dist/jquery.handsontable.full.min.css"
+                 data-name="v0.4.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="v0.4.0">v0.4.0</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/tree/0.11.4/dist/jquery.handsontable.full.min.css"
+                 data-name="0.11.4"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="0.11.4">0.11.4</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/tree/0.11.3/dist/jquery.handsontable.full.min.css"
+                 data-name="0.11.3"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="0.11.3">0.11.3</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/tree/0.11.2/dist/jquery.handsontable.full.min.css"
+                 data-name="0.11.2"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="0.11.2">0.11.2</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/tree/0.11.1/dist/jquery.handsontable.full.min.css"
+                 data-name="0.11.1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="0.11.1">0.11.1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/tree/0.11.0-beta3/dist/jquery.handsontable.full.min.css"
+                 data-name="0.11.0-beta3"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="0.11.0-beta3">0.11.0-beta3</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/tree/0.11.0-beta2/dist/jquery.handsontable.full.min.css"
+                 data-name="0.11.0-beta2"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="0.11.0-beta2">0.11.0-beta2</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/tree/0.11.0-beta1/dist/jquery.handsontable.full.min.css"
+                 data-name="0.11.0-beta1"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="0.11.0-beta1">0.11.0-beta1</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/handsontable/jquery-handsontable/tree/0.11.0/dist/jquery.handsontable.full.min.css"
+                 data-name="0.11.0"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text css-truncate-target"
+                 title="0.11.0">0.11.0</a>
+            </div> <!-- /.select-menu-item -->
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div> <!-- /.select-menu-list -->
+
+    </div> <!-- /.select-menu-modal -->
+  </div> <!-- /.select-menu-modal-holder -->
+</div> <!-- /.select-menu -->
+
+  <div class="button-group right">
+    <a href="/handsontable/jquery-handsontable/find/master"
+          class="js-show-file-finder minibutton empty-icon tooltipped tooltipped-s"
+          data-pjax
+          data-hotkey="t"
+          aria-label="Quickly jump between files">
+      <span class="octicon octicon-list-unordered"></span>
+    </a>
+    <button aria-label="Copy to clipboard" class="js-zeroclipboard minibutton zeroclipboard-button" data-clipboard-text="dist/jquery.handsontable.full.min.css" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+  </div>
+
+  <div class="breadcrumb">
+    <span class='repo-root js-repo-root'><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/handsontable/jquery-handsontable" class="" data-branch="master" data-direction="back" data-pjax="true" itemscope="url"><span itemprop="title">jquery-handsontable</span></a></span></span><span class="separator"> / </span><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/handsontable/jquery-handsontable/tree/master/dist" class="" data-branch="master" data-direction="back" data-pjax="true" itemscope="url"><span itemprop="title">dist</span></a></span><span class="separator"> / </span><strong class="final-path">jquery.handsontable.full.min.css</strong>
+  </div>
+</div>
+
+
+  <div class="commit file-history-tease">
+    <div class="file-history-tease-header">
+        <img alt="Marcin Warpechowski" class="avatar" data-user="566463" height="24" src="https://avatars1.githubusercontent.com/u/566463?v=3&amp;s=48" width="24" />
+        <span class="author"><a href="/warpech" rel="contributor">warpech</a></span>
+        <time datetime="2014-10-07T19:51:16Z" is="relative-time">Oct 7, 2014</time>
+        <div class="commit-title">
+            <a href="/handsontable/jquery-handsontable/commit/b3c82ad7c7e52eebe41d4436d4959176600b8fdf" class="message" data-pjax="true" title="0.11.4">0.11.4</a>
+        </div>
+    </div>
+
+    <div class="participation">
+      <p class="quickstat">
+        <a href="#blob_contributors_box" rel="facebox">
+          <strong>1</strong>
+           contributor
+        </a>
+      </p>
+      
+    </div>
+    <div id="blob_contributors_box" style="display:none">
+      <h2 class="facebox-header">Users who have contributed to this file</h2>
+      <ul class="facebox-user-list">
+          <li class="facebox-user-list-item">
+            <img alt="Marcin Warpechowski" data-user="566463" height="24" src="https://avatars1.githubusercontent.com/u/566463?v=3&amp;s=48" width="24" />
+            <a href="/warpech">warpech</a>
+          </li>
+      </ul>
+    </div>
+  </div>
+
+<div class="file-box">
+  <div class="file">
+    <div class="meta clearfix">
+      <div class="info file-name">
+          <span>10 lines (10 sloc)</span>
+          <span class="meta-divider"></span>
+        <span>10.852 kb</span>
+      </div>
+      <div class="actions">
+        <div class="button-group">
+          <a href="/handsontable/jquery-handsontable/raw/master/dist/jquery.handsontable.full.min.css" class="minibutton " id="raw-url">Raw</a>
+            <a href="/handsontable/jquery-handsontable/blame/master/dist/jquery.handsontable.full.min.css" class="minibutton js-update-url-with-hash">Blame</a>
+          <a href="/handsontable/jquery-handsontable/commits/master/dist/jquery.handsontable.full.min.css" class="minibutton " rel="nofollow">History</a>
+        </div><!-- /.button-group -->
+
+          <a class="octicon-button tooltipped tooltipped-nw"
+             href="http://windows.github.com" aria-label="Open this file in GitHub for Windows">
+              <span class="octicon octicon-device-desktop"></span>
+          </a>
+
+            <a class="octicon-button disabled tooltipped tooltipped-w" href="#"
+               aria-label="You must be signed in to make or propose changes"><span class="octicon octicon-pencil"></span></a>
+
+          <a class="octicon-button danger disabled tooltipped tooltipped-w" href="#"
+             aria-label="You must be signed in to make or propose changes">
+          <span class="octicon octicon-trashcan"></span>
+        </a>
+      </div><!-- /.actions -->
+    </div>
+    
+
+  <div class="blob-wrapper data type-css">
+      <table class="highlight tab-size-8 js-file-line-container">
+      <tr>
+        <td id="L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <td id="LC1" class="blob-code js-file-line"><span class="pl-c"><span class="pl-pdc">/*</span>!</span></td>
+      </tr>
+      <tr>
+        <td id="L2" class="blob-num js-line-number" data-line-number="2"></td>
+        <td id="LC2" class="blob-code js-file-line"><span class="pl-c"> * Handsontable 0.11.4</span></td>
+      </tr>
+      <tr>
+        <td id="L3" class="blob-num js-line-number" data-line-number="3"></td>
+        <td id="LC3" class="blob-code js-file-line"><span class="pl-c"> * Handsontable is a simple jQuery plugin for editable tables with basic copy-paste compatibility with Excel and Google Docs</span></td>
+      </tr>
+      <tr>
+        <td id="L4" class="blob-num js-line-number" data-line-number="4"></td>
+        <td id="LC4" class="blob-code js-file-line"><span class="pl-c"> *</span></td>
+      </tr>
+      <tr>
+        <td id="L5" class="blob-num js-line-number" data-line-number="5"></td>
+        <td id="LC5" class="blob-code js-file-line"><span class="pl-c"> * Copyright 2012-2014 Marcin Warpechowski</span></td>
+      </tr>
+      <tr>
+        <td id="L6" class="blob-num js-line-number" data-line-number="6"></td>
+        <td id="LC6" class="blob-code js-file-line"><span class="pl-c"> * Licensed under the MIT license.</span></td>
+      </tr>
+      <tr>
+        <td id="L7" class="blob-num js-line-number" data-line-number="7"></td>
+        <td id="LC7" class="blob-code js-file-line"><span class="pl-c"> * http://handsontable.com/</span></td>
+      </tr>
+      <tr>
+        <td id="L8" class="blob-num js-line-number" data-line-number="8"></td>
+        <td id="LC8" class="blob-code js-file-line"><span class="pl-c"> *</span></td>
+      </tr>
+      <tr>
+        <td id="L9" class="blob-num js-line-number" data-line-number="9"></td>
+        <td id="LC9" class="blob-code js-file-line"><span class="pl-c"> * Date: Tue Oct 07 2014 21:47:07 GMT+0200 (CEST)</span></td>
+      </tr>
+      <tr>
+        <td id="L10" class="blob-num js-line-number" data-line-number="10"></td>
+        <td id="LC10" class="blob-code js-file-line"><span class="pl-c"> */.handsontable{position:relative}.handsontable .hide{display:none}.handsontable .relative{position:relative}.handsontable.htAutoColumnSize{visibility:hidden;left:0;position:absolute;top:0}.handsontable div,.handsontable table,.handsontable tbody,.handsontable td,.handsontable th,.handsontable thead{box-sizing:content-box;-webkit-box-sizing:content-box;-moz-box-sizing:content-box}.handsontable table.htCore{border-collapse:separate;position:relative;border-spacing:0;margin:0;border-width:0;table-layout:fixed;width:0;outline-width:0;max-width:none;max-height:none}.handsontable col,.handsontable col.rowHeader{width:50px}.handsontable td,.handsontable th{border-right:1px solid #CCC;border-bottom:1px solid #CCC;height:22px;empty-cells:show;line-height:21px;padding:0 4px;background-color:#FFF;vertical-align:top;overflow:hidden;outline-width:0;white-space:pre-line}.handsontable td.htInvalid{background-color:#ff4c42!important}.handsontable td.htNoWrap{white-space:nowrap}.handsontable th:last-child{border-right:1px solid #CCC;border-bottom:1px solid #CCC}.handsontable th.htNoFrame,.handsontable th:first-child.htNoFrame,.handsontable tr:first-child th.htNoFrame{border-left-width:0;background-color:#fff;border-color:#FFF}.handsontable .htNoFrame+td,.handsontable .htNoFrame+th,.handsontable td:first-child,.handsontable th:first-child{border-left:1px solid #CCC}.handsontable tr:first-child td,.handsontable tr:first-child th{border-top:1px solid #CCC}.handsontable thead tr.lastChild th,.handsontable thead tr:last-child th{border-bottom-width:0}.handsontable th{background-color:#EEE;color:#222;text-align:center;font-weight:400;white-space:nowrap}.handsontable thead th{padding:0}.handsontable th.active{background-color:#CCC}.handsontable thead th .relative{padding:2px 4px}.handsontable .manualColumnMover{position:fixed;left:0;top:0;background-color:transparent;width:5px;height:25px;z-index:999;cursor:move}.handsontable .manualRowMover{position:fixed;left:-4px;top:0;background-color:transparent;height:5px;width:50px;z-index:999;cursor:move}.handsontable .manualColumnMoverGuide,.handsontable .manualRowMoverGuide{position:fixed;left:0;top:0;background-color:#CCC;width:25px;height:25px;opacity:.7;display:none}.handsontable .manualColumnMoverGuide.active,.handsontable .manualRowMoverGuide.active{display:block}.handsontable .manualColumnMover.active,.handsontable .manualColumnMover:hover,.handsontable .manualRowMover.active,.handsontable .manualRowMover:hover{background-color:#88F}.handsontable .manualColumnResizer{position:fixed;top:0;cursor:col-resize;z-index:110;width:5px;height:25px}.handsontable .manualRowResizer{position:fixed;left:0;cursor:row-resize;z-index:110;height:5px;width:50px}.handsontable .manualColumnResizer.active,.handsontable .manualColumnResizer:hover,.handsontable .manualRowResizer.active,.handsontable .manualRowResizer:hover{background-color:#AAB}.handsontable .manualColumnResizerGuide{position:fixed;right:0;top:0;background-color:#AAB;display:none;width:0;border-right:1px dashed #777;margin-left:5px}.handsontable .manualRowResizerGuide{position:fixed;left:0;bottom:0;background-color:#AAB;display:none;height:0;border-bottom:1px dashed #777;margin-top:5px}.handsontable .manualColumnResizerGuide.active,.handsontable .manualRowResizerGuide.active{display:block}.handsontable .columnSorting:hover{text-decoration:underline;cursor:pointer}.handsontable .wtBorder{position:absolute;font-size:0}.handsontable .wtBorder.hidden{display:none!important}.handsontable td.area{background-color:#EEF4FF}.handsontable .wtBorder.corner{font-size:0;cursor:crosshair}.handsontable .htBorder.htFillBorder{background:red;width:1px;height:1px}.handsontableInput{border:2px solid #5292F7;outline-width:0;margin:0;padding:1px 4px 0 2px;font-family:inherit;line-height:inherit;font-size:inherit;-webkit-box-shadow:1px 2px 5px rgba(0,0,0,.4);box-shadow:1px 2px 5px rgba(0,0,0,.4);resize:none;display:inline-block;color:#000;border-radius:0;background-color:#FFF}.handsontableInputHolder{position:absolute;top:0;left:0;z-index:100}.htSelectEditor{-webkit-appearance:menulist-button!important;position:absolute}.handsontable .htDimmed{color:#777}.handsontable .htSubmenu :after{content:&#39;▶&#39;;color:#777;position:absolute;right:5px}.handsontable .htLeft{text-align:left}.handsontable .htCenter{text-align:center}.handsontable .htRight{text-align:right}.handsontable .htJustify{text-align:justify}.handsontable .htTop{vertical-align:top}.handsontable .htMiddle{vertical-align:middle}.handsontable .htBottom{vertical-align:bottom}.handsontable .htPlaceholder{color:#999}.handsontable .htAutocompleteArrow{float:right;font-size:10px;color:#EEE;cursor:default;width:16px;text-align:center}.handsontable td .htAutocompleteArrow:hover{color:#777}.handsontable .htCheckboxRendererInput.noValue{opacity:.5}.handsontable .htNumeric{text-align:right}.htCommentCell{position:relative}.htCommentCell:after{content:&#39;&#39;;position:absolute;top:0;right:0;border-left:6px solid transparent;border-top:6px solid red}.handsontable .handsontable .wtHider{padding:0 0 5px}.handsontable .handsontable table{-webkit-box-shadow:1px 2px 5px rgba(0,0,0,.4);box-shadow:1px 2px 5px rgba(0,0,0,.4)}.handsontable .autocompleteEditor.handsontable{padding-right:17px}.handsontable .autocompleteEditor.handsontable.htMacScroll{padding-right:15px}.handsontable.listbox{margin:0}.handsontable.listbox .ht_master table{border:1px solid #ccc;border-collapse:separate;background:#fff}.handsontable.listbox td,.handsontable.listbox th,.handsontable.listbox tr:first-child td,.handsontable.listbox tr:first-child th,.handsontable.listbox tr:last-child th{border-width:0}.handsontable.listbox td,.handsontable.listbox th{white-space:nowrap;text-overflow:ellipsis}.handsontable.listbox td.htDimmed{cursor:default;color:inherit;font-style:inherit}.handsontable.listbox .wtBorder{visibility:hidden}.handsontable.listbox tr td.current,.handsontable.listbox tr:hover td{background:#eee}.htContextMenu{display:none;position:absolute;z-index:1060}.htContextMenu .ht_clone_corner,.htContextMenu .ht_clone_left,.htContextMenu .ht_clone_top{display:none}.ht_clone_top{z-index:101}.ht_clone_left{z-index:102}.ht_clone_corner{z-index:103}.htContextMenu table.htCore{outline:#bbb solid 1px}.htContextMenu .wtBorder{visibility:hidden}.htContextMenu table tbody tr td{background:#fff;border-width:0;padding:4px 6px 0;cursor:pointer;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}.htContextMenu table tbody tr td:first-child{border:0}.htContextMenu table tbody tr td.htDimmed{font-style:normal;color:#323232}.htContextMenu table tbody tr td.current,.htContextMenu table tbody tr td.zeroclipboard-is-hover{background:#e9e9e9}.htContextMenu table tbody tr td.htSeparator{border-top:1px solid #bbb;height:0;padding:0}.htContextMenu table tbody tr td.htDisabled{color:#999}.htContextMenu table tbody tr td.htDisabled:hover{background:#fff;color:#999;cursor:default}.htContextMenu table tbody tr td div{padding-left:10px}.htContextMenu table tbody tr td div span.selected{margin-top:-2px;position:absolute;left:4px}.handsontable td.htSearchResult{background:#fcedd9;color:#583707}.htBordered{border-width:1px}.htBordered.htTopBorderSolid{border-top-style:solid;border-top-color:#000}.htBordered.htRightBorderSolid{border-right-style:solid;border-right-color:#000}.htBordered.htBottomBorderSolid{border-bottom-style:solid;border-bottom-color:#000}.htBordered.htLeftBorderSolid{border-left-style:solid;border-left-color:#000}.htCommentTextArea{background-color:#FFFACD;box-shadow:1px 1px 2px #bbb;font-family:Arial;-webkit-box-shadow:1px 1px 2px #bbb;-moz-box-shadow:1px 1px 2px #bbb}.handsontable colgroup col.rowHeader.htGroupCol{width:25px!important}.handsontable colgroup col.rowHeader.htGroupColClosest{width:30px!important}.handsontable .htGroupIndicatorContainer{background:#fff;border:0;padding-bottom:0;vertical-align:bottom;position:relative}.handsontable thead .htGroupIndicatorContainer{vertical-align:top;border-bottom:0}.handsontable tbody tr th:nth-last-child(2){border-right:1px solid #CCC}.handsontable thead tr:nth-last-child(2) th{border-bottom:1px solid #CCC;padding-bottom:5px}.ht_clone_corner thead tr th:nth-last-child(2){border-right:1px solid #CCC}.htVerticalGroup{height:100%}.htHorizontalGroup{width:100%;height:100%}.htVerticalGroup:not(.htCollapseButton):after{content:&quot;&quot;;height:100%;width:1px;display:block;background:#ccc;margin-left:5px}.htHorizontalGroup:not(.htCollapseButton):after{content:&quot;&quot;;width:100%;height:1px;display:block;background:#ccc;margin-top:20%}.htCollapseButton{width:10px;height:10px;line-height:10px;text-align:center;border-radius:5px;border:1px solid #f3f3f3;-webkit-box-shadow:1px 1px 3px rgba(0,0,0,.4);box-shadow:1px 1px 3px rgba(0,0,0,.4);cursor:pointer;margin-bottom:3px;position:relative}.htCollapseButton:after{content:&quot;&quot;;height:300%;width:1px;display:block;background:#ccc;margin-left:4px;position:absolute;bottom:10px}thead .htCollapseButton{right:5px;position:absolute;top:5px;background:#fff}thead .htCollapseButton:after{height:1px;width:700%;right:10px;top:4px}.handsontable tr th .htGroupStart:after{background:0 0;border-left:1px solid #ccc;border-top:1px solid #ccc;width:5px;position:relative;top:50%}.handsontable thead tr th .htGroupStart:after{background:0 0;border-left:1px solid #ccc;border-top:1px solid #ccc;height:5px;width:50%;position:relative;top:0;left:50%}.handsontable .htGroupLevelTrigger{-webkit-box-shadow:1px 1px 3px rgba(0,0,0,.4);box-shadow:1px 1px 3px rgba(0,0,0,.4);width:15px;height:15px;margin:4px auto;padding:0;line-height:15px;cursor:pointer}.handsontable tr th .htExpandButton{position:absolute;width:10px;height:10px;line-height:10px;text-align:center;border-radius:5px;border:1px solid #f3f3f3;-webkit-box-shadow:1px 1px 3px rgba(0,0,0,.4);box-shadow:1px 1px 3px rgba(0,0,0,.4);cursor:pointer;top:0;display:none}.handsontable thead tr th .htExpandButton{top:5px}.handsontable tr th .htExpandButton.clickable{display:block}.handsontable col.hidden{width:0!important}.handsontable tr.hidden,.handsontable tr.hidden td,.handsontable tr.hidden th,.wtDebugHidden{display:none}.wtDebugVisible{display:block;-webkit-animation-duration:.5s;-webkit-animation-name:wtFadeInFromNone;animation-duration:.5s;animation-name:wtFadeInFromNone}@keyframes wtFadeInFromNone{0%{display:none;opacity:0}1%{display:block;opacity:0}100%{display:block;opacity:1}}@-webkit-keyframes wtFadeInFromNone{0%{display:none;opacity:0}1%{display:block;opacity:0}100%{display:block;opacity:1}}</span></td>
+      </tr>
+</table>
+
+  </div>
+
+  </div>
+</div>
+
+<a href="#jump-to-line" rel="facebox[.linejump]" data-hotkey="l" style="display:none">Jump to Line</a>
+<div id="jump-to-line" style="display:none">
+  <form accept-charset="UTF-8" class="js-jump-to-line-form">
+    <input class="linejump-input js-jump-to-line-field" type="text" placeholder="Jump to line&hellip;" autofocus>
+    <button type="submit" class="button">Go</button>
+  </form>
+</div>
+
+        </div>
+
+      </div><!-- /.repo-container -->
+      <div class="modal-backdrop"></div>
+    </div><!-- /.container -->
+  </div><!-- /.site -->
+
+
+    </div><!-- /.wrapper -->
+
+      <div class="container">
+  <div class="site-footer" role="contentinfo">
+    <ul class="site-footer-links right">
+      <li><a href="https://status.github.com/">Status</a></li>
+      <li><a href="https://developer.github.com">API</a></li>
+      <li><a href="http://training.github.com">Training</a></li>
+      <li><a href="http://shop.github.com">Shop</a></li>
+      <li><a href="/blog">Blog</a></li>
+      <li><a href="/about">About</a></li>
+
+    </ul>
+
+    <a href="/" aria-label="Homepage">
+      <span class="mega-octicon octicon-mark-github" title="GitHub"></span>
+    </a>
+
+    <ul class="site-footer-links">
+      <li>&copy; 2014 <span title="0.03219s from github-fe117-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+        <li><a href="/site/terms">Terms</a></li>
+        <li><a href="/site/privacy">Privacy</a></li>
+        <li><a href="/security">Security</a></li>
+        <li><a href="/contact">Contact</a></li>
+    </ul>
+  </div><!-- /.site-footer -->
+</div><!-- /.container -->
+
+
+    <div class="fullscreen-overlay js-fullscreen-overlay" id="fullscreen_overlay">
+  <div class="fullscreen-container js-suggester-container">
+    <div class="textarea-wrap">
+      <textarea name="fullscreen-contents" id="fullscreen-contents" class="fullscreen-contents js-fullscreen-contents js-suggester-field" placeholder=""></textarea>
+    </div>
+  </div>
+  <div class="fullscreen-sidebar">
+    <a href="#" class="exit-fullscreen js-exit-fullscreen tooltipped tooltipped-w" aria-label="Exit Zen Mode">
+      <span class="mega-octicon octicon-screen-normal"></span>
+    </a>
+    <a href="#" class="theme-switcher js-theme-switcher tooltipped tooltipped-w"
+      aria-label="Switch themes">
+      <span class="octicon octicon-color-mode"></span>
+    </a>
+  </div>
+</div>
+
+
+
+    <div id="ajax-error-message" class="flash flash-error">
+      <span class="octicon octicon-alert"></span>
+      <a href="#" class="octicon octicon-x flash-close js-ajax-error-dismiss" aria-label="Dismiss error"></a>
+      Something went wrong with that request. Please try again.
+    </div>
+
+
+      <script crossorigin="anonymous" src="https://assets-cdn.github.com/assets/frameworks-d11dde21d6ca6bcae359b045f5ff7a3524d353cc27e7c18e3386dfeb1222a1c0.js" type="text/javascript"></script>
+      <script async="async" crossorigin="anonymous" src="https://assets-cdn.github.com/assets/github-dcb36b16030686d2c820f0138ee3fdb08dbc6fcbbe14bc242d91b96a75348c40.js" type="text/javascript"></script>
+      
+      
+  </body>
+</html>
+

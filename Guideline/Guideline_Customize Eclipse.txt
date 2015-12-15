@@ -1,0 +1,91 @@
+This text provides some notes to customize the IDE Eclipse for Java Developer.
+
+***Version 1.0
+A. Eclipse JEE
+- https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/kepler/SR2/eclipse-jee-kepler-SR2-win32.zip
+  
+B. Installed Plugins
+- Checkstyle 5.7.0 (http://eclipse-cs.sourceforge.net/update/)
+- Findbugs 2.3.0 (http://findbugs.cs.umd.edu/eclipse)a
+- SVN Subclipse 1.10.x (http://subclipse.tigris.org/update_1.10.x)
+- Resource editor (http://sourceforge.net/projects/eclipse-rbe/): Manual installation (plugins\com.essiembre.eclipse.i18n.resourcebundle_0.8.0)
+- StepCounter 3.0.2 (http://sourceforge.jp/projects/amateras/releases/): Manual installation (dropins\jp.sf.amateras.stepcounter_3.0.2.201306151203.jar)
+- EclEmma 2.3.0 (http://update.aclemma.org)
+- Spring Tool Suite 3.5.1 (http://dist.springsource.com/release/TOO)
+- JBoss Tools 4.2.1 Final(Kepler) (http://download.jboss.org/jbosstools/updates/stable/kepler
+- Google ADT (https://dl-ssl.google.com/android/eclipse/)
+C. Configuration for plugins:
+  C1) Checkstype: Create "Customized Sun Checks (Eclipse)" which are cloned from Sun Checks (Eclipse)" configuration with below customizations:
+      + Module Miscellaneous: disable checking "Final Parameters"
+      + Module Coding Problems: disable checking "Hidden Field"
+      + Module Javadoc Comments: disable checking Package Javadoc
+      + Module Class Design: disable checking Design for Extension
+
+D. Configuration for the eclipse
+   Open dialog "Preferences" by going menu "Window > Preference...".
+   1> Input keyword "tab" (without double-quotes) into the lookup input in left navigation, following below setting:
+	  + Item "General > Editors > Text Editors":
+	    ++ Check on item "Insert spaces for tabs"
+		++ Check on item "Show line numbers"
+	  + Items "Web > CSS Files", "Web > HTML Files": change the encoding file into "ISO 10646/Unicode(UTF-8)"
+	  + Items "Web > CSS Files > Editor", "Web > HTML Files > Editor" and "Web > XML Files > Editor": in section "Formatting"
+	    ++ Change value of "Line width" into 120
+        ++ Select on item "Indent using spaces"; change value of "Indentation size" into 2.
+	  + Items "XML > XML Files > Editor": in section "Formatting"
+	    ++ Change value of "Line width" into 120
+        ++ Select on item "Indent using spaces"; change value of "Indentation size" into 2.
+      Click on "OK" button to complete the setting.
+   2> Input keyword "enc" (without double-quotes) into the lookup input in left navigation, following below setting: 
+     + Item "General > Workspace":
+	   ++ Change value of item "Text file encoding" into "UTF-8"
+	 + Items "Web > JSP Files": change the encoding file into "ISO 10646/Unicode(UTF-8)"
+   3> Code template setting
+      Clear lookup input, select item "Java > Code Style > Code Templates". In the section "Configure generated code and comments",
+     + Update items by select them and click on "Edit" button:
+	   ++ Item "Comments > Files", value is the content of file "LICENSE.txt". It is in the same folder of this file readme.txt
+	   ++ Item "Comments > Getters"
+	      Insert a new line "Get value of ${bare_field_name}." before the line "@return".
+		  The new content is:
+		  /**
+           * Get value of ${bare_field_name}.
+           * @return the ${bare_field_name}
+           */
+	   ++ Item "Comments > Field"
+		   /**  . */
+	   ++ Item "Comments > Methods"
+	      
+		  /**
+           * [Give the description for method].
+           * ${tags}
+           */
+	   ++ Item "Comments > Setters"
+	      Insert a new line "Set the value for ${bare_field_name}." before the line "@return".
+		  The new content is:
+		  /**
+           * Set the value for ${bare_field_name}.
+           * @param ${param} the ${bare_field_name} to set
+           */
+	   ++ Item "Comments > Overriding methods"
+	      Change the line "(non-Javadoc)" into "[Explain the description for this method here]". And a new blank line before this guideline.
+		  The new content is:
+		  /* 
+          * [Explain the description for this method here].
+          * ${see_to_overridden}
+          */
+     Click on "OK" button to complete the setting.
+	 4> Code formatter setting
+	  + Select item "Java > Code Style":
+	    ++ Change value of "Exception variable name in catch block" from e to ex.
+      + Select item "Java > Code Style > Formatter", edit profile "Eclipse 2.1 [built-in] with new name "Customized Eclipse 2.1 [built-in]", following settings:
+	    ++ In tab "Indentation":
+		   +++ Select tab policy: select "Spaces only"
+		++ In tab "Line Wrapping", section "General settings":
+		   +++ Maximum line with: change from 80 to 120
+		++ In tab "Comments", section "Line with":
+		   +++ Maximum line with for comments: change from 80 to 120
+		   +++ Un-check item "New line after @param tag"
+		   +++ Check item "Remove blank lines"
+		Click on "Apply" button, then click on "OK" button.
+Remove recently open files: Edit file "workspace\.metadata\.plugins\org.eclipse.ui.workbench\workbench.xml"
+
+Le Ngoc Thach

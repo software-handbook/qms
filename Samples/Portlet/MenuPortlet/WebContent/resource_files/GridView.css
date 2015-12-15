@@ -1,0 +1,270 @@
+﻿.GridItem
+{
+    background-color: #f1f0ee;
+    color: #000000;
+    height: 22px;
+    font-size: 11px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.GridItem:hover
+{
+    /* background-color: #FFCC66;*/
+    background: url(images/HeaderHover.png) repeat-x center; 
+}
+.GridPager
+{
+    background-image: url(images/header.png);
+    background-repeat: repeat;
+    background-position: center;
+    text-align: center;
+    color: #CC6600;
+    font-weight: bold;
+    width: 100%;
+    border-width:0px;
+}
+.GridPager a
+{
+    color: #003366;
+    font-weight: bold;
+}
+.GridPager a:hover
+{
+    color: #FF6600;
+}
+.GridHeader
+{
+    background-image: url(images/header.png);
+    background-repeat: repeat-x;
+    background-position: center;
+    color: #000000;
+    height: 22px;
+    padding-left: 3px;
+    padding-right: 3px;
+    text-align: center;
+}
+.GridHeader a:link
+{
+    color: #003366;
+    border: 1px hidden #C9DFFF;
+    text-decoration: underline;
+}
+.GridHeader a:visited
+{
+    color: #003366;
+    text-decoration: none;
+}
+.GridHeader a:hover
+{
+    color: #FF3300;
+    text-decoration: none;
+}
+.EmptyData
+{
+    background-color: #f1f0ee;
+    color: #000000;
+    font-weight: bold;
+    font-size: 11px;
+    height: 26px;
+    width: 100%;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.GridHeader td
+{
+    border-color: #69A1BF;
+}
+.GridHeader th
+{
+    border-color: #69A1BF;
+}
+.GridAlternatingItem
+{
+    background-color: #D3DFEE;
+    color: #000000;
+    height: 22px;
+    font-size: 11px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.GridAlternatingItem:hover
+{
+    background: url(images/HeaderHover.png) repeat-x center; /*background-color: #FFCC66;*/
+}
+.Grid
+{
+    border: solid 1px #69A1BF;
+}
+.Grid td
+{
+    color: Black;
+    border-color: #69A1BF;
+}
+.Grid th
+{
+    color: #003366;
+    border-color: #69A1BF;
+}
+.GridSelected td
+{
+    background-color: #FFFFFF;
+    color: #000000;
+    height: 22px;
+    font-size: 11px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+
+/* Skin xGridview*/
+
+/*TABLE.GridStyle TR TD, TABLE.GridStyle TR TH, 
+TABLE.GridStyle TR TH SPAN, TABLE.GridStyle TR TD SPAN, 
+TABLE.GridPagerStyle TR TD A, TABLE.GridPagerStyle TR TD
+{
+    font-size: 8pt;
+}
+
+TABLE.GridStyle TR TD, TABLE.GridStyle TR TH
+{
+    padding-left: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 3px;
+}
+
+TABLE.GridStyle TH
+{
+    background-image: url(images/headerGridBgA.jpg);
+    background-repeat: repeat;
+    color: #f1f0ee;
+    font-size:11px;
+    height: 32px;
+    padding-left:3px;
+	padding-right:3px;
+	text-align:center;
+}        
+
+TABLE.GridStyle TR
+{
+    height : 15px;
+    max-height : 15px;
+    min-height : 15px;
+}    
+        
+TABLE.GridStyle TR TD
+{
+    background-color: #f1f0ee;
+	color: #000000;
+	height: 22px;
+	font-size: 11px;
+	padding-left:3px;
+	padding-right:3px;
+}        
+
+
+
+TR.GridAlternateRowStyle
+{
+    background-color: #D7D7D7;
+	color: #000000;
+	height: 22px;
+	font-size: 11px;
+	padding-left:3px;
+	padding-right:3px;
+}
+TR.GridRowStyle, TD.GridRowStyle
+{
+   background-color: #f1f0ee;
+	color: #000000;
+	height: 22px;
+	font-size: 11px;
+	padding-left:3px;
+	padding-right:3px;
+}*/
+
+
+TABLE.GridStyle TR TD, TABLE.GridStyle TR TH, TABLE.GridStyle TR TH SPAN, TABLE.GridStyle TR TD SPAN
+{
+    font-size: 8pt;
+}
+TABLE.GridPagerStyle TR SPAN, TABLE.GridPagerStyle TR TD
+{
+    border-width:0px;
+}
+TABLE.GridStyle TR TD, TABLE.GridStyle TR TH
+{
+    padding-left: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 3px;
+}
+
+TABLE.GridStyle TR TH
+{
+    cursor: pointer;
+    padding: 3px 3px 3px 3px;
+    border: Solid 1px #A3C0E8;
+    /*background-image: url(images/headerGridBgA.gif);*/
+    background-position: top;
+    background-repeat: repeat-x;
+    overflow: hidden;
+    -moz-user-select: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+TABLE.GridStyle TR
+{
+    height: 15px;
+    max-height: 15px;
+    min-height: 15px;
+}
+TABLE.GridStyle TR:hover
+{
+     
+    /*background-color: #FFCC66;*/
+}
+
+TABLE.GridStyle TR TD
+{
+    /*border-top: 1px solid #A3C0E8;*/
+    border-left: 1px solid #69A1BF;
+    border-bottom: 1px solid #69A1BF;
+    border-right: 1px solid #69A1BF;
+}
+TR.GridAlternateRowStyle
+{
+    background-color: #D3DFEE;
+    color: #000000;
+    height: 22px;
+    font-size: 11px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+TR.GridAlternateRowStyle:hover
+{
+    background: url(images/HeaderHover.png) repeat-x center;
+}
+TR.GridRowStyle, TD.GridRowStyle
+{
+    background-color: #f1f0ee;
+    color: #000000;
+    height: 22px;
+    font-size: 11px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+TR.GridRowStyle:hover
+{
+    background: url(images/HeaderHover.png) repeat-x center;
+}
+.GridStyle 
+{
+    border: 1px solid #69A1BF;
+}
+
+.GridStyle .EmptyData td
+{
+    border: 1px solid #69A1BF;
+}

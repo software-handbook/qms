@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webpage>
+    <tabs default-id='0'>
+        <tab id="0" name="Dịch vụ" href="index.html">Tư vấn, triển khai đào tạo FMS. Cung cấp phiên bản sửa lỗi cải tiến của FMS - Project360.
+        </tab>
+        <tab id="1" name="Sản phẩm" href="cong-cu-peoplekpi-peoplesalary.html">PeopleKPI: Lập kế hoạch công việc, đánh giá kết quả công việc qua KPI.
+PeopleSalary: Đánh giá năng lực nhân viên, trả lương theo phương pháp 3P.
+        </tab>
+        <tab id="2" name="Download" href="download-fms-project360.html">Download bản nâng cấp FMS với tên mới là Project360.
+        </tab>
+        <tab id="3" name="Tài liệu" href="tai-lieu-fms-project360.html">Xem tài liệu trực tuyến Project360.
+        </tab>
+        <tab id="4" name="Liên hệ" href="lien-he.html">
+        </tab>   
+     </tabs>
+</webpage>

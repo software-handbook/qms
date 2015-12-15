@@ -1,0 +1,91 @@
+<project name="GAEDao for WebAccount" default="dist" basedir=".">
+  <description>
+      Build file for the project
+  </description>
+  <!-- Load user property definition overrides -->
+  <property file="build.properties"/>
+  
+  <!-- set global properties for this build
+    web.content: Folder contain web content of application
+  -->
+  <property name="build.home" location="build"/>
+  <property name="dist.home"  location="dist/${app.name}-${app.version}"/>
+  <property name="web.content" location="war"/>
+
+  <property name="lib.compile" value="${web.content}/WEB-INF/lib"/>
+  <property name="lib.server.compile" value="server-lib"/>
+  
+<!--
+
+  These properties control option settings on the Javac compiler when it
+  is invoked using the <javac> task.
+
+  compile.debug        Should compilation include the debug option?
+
+  compile.deprecation  Should compilation include the deprecation option?
+
+  compile.optimize     Should compilation include the optimize option?
+
+-->
+
+  <property name="compile.debug"       value="true"/>
+  <property name="compile.deprecation" value="false"/>
+  <property name="compile.optimize"    value="true"/>
+  
+  <path id="compile.classpath">
+    <fileset dir="${lib.compile}">
+       <include name="**/*.jar"/>
+    </fileset>
+	<!-- Un-comment this tag your proejct wants external libraries from folder "server-lib" for compiling. -->
+	<fileset dir="${lib.server.compile}">
+       <include name="**/*.jar"/>
+    </fileset> 
+	
+  </path>
+
+  <target name="init" depends="clean">
+    <!-- Create the time stamp -->
+    <tstamp/>
+    <!-- Create the build directory structure used by compile -->
+    <mkdir dir="${build.home}"/>
+    <mkdir dir="${build.home}/WEB-INF/classes"/>
+    
+  </target>
+
+  <target name="compile" depends="init" description="Compile all Java sources">
+
+    <!-- Compile Java classes as necessary -->
+	<echo message="Complie sourse folder 'src'"/>
+    <javac srcdir="src"
+          destdir="${build.home}/WEB-INF/classes"
+            debug="${compile.debug}"
+      deprecation="${compile.deprecation}"
+          target="1.6"
+          source="1.6"
+          encoding="UTF-8"
+         optimize="${compile.optimize}">
+      <classpath refid="compile.classpath"/>
+    </javac>
+    
+  </target>
+
+  <!-- Compile and distribute inferface packages which include:
+       + Entities: Account
+       + Dao Interface: IAccountDao
+   -->
+  <target name="dist" depends="compile" description="generate the distribution war file" >
+    <!-- Create the distribution directory -->
+    <mkdir dir="${dist.home}"/>
+    
+    <jar jarfile="${dist.home}/${app.name}-${app.version}.jar" basedir="${build.home}/WEB-INF/classes"/>
+    <echo message="View the result within folder ${dist.home}"/>
+  </target>
+ 
+  <target name="clean" description="clean up the build folder" >
+    <!-- Delete the ${build.home} and ${dist.home} directory trees -->
+	<echo message="Delete the '${build.home}' and '${dist.home}' directory trees "/>
+    <delete dir="${build.home}"/>
+	<delete dir="${dist.home}"/>
+  </target>
+
+</project>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<portlet-app xmlns='http://java.sun.com/xml/ns/portlet/portlet-app_1_0.xsd' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://java.sun.com/xml/ns/portlet/portlet-app_1_0.xsd http://java.sun.com/xml/ns/portlet/portlet-app_1_0.xsd' version='1.0'>
+	<portlet>
+		<description>AccountManagement</description>
+		<portlet-name>AccountManagement</portlet-name>
+		<display-name>AccountManagement</display-name>
+		<!-- <portlet-class>openones.demo.mvcportlet.AccountManagement</portlet-class> -->
+        <portlet-class>openones.portlet.MVCPortlet</portlet-class>
+            <init-param>
+              <description>Configuration file</description>
+              <name>mvcportlet-config</name>
+              <value>/WEB-INF/mvcportlet-config.xml</value>
+            </init-param>
+            <init-param>
+              <description>Context configuration</description>
+              <name>contextPath</name>
+              <value>MVCSubmitForm</value>
+            </init-param>        
+		<expiration-cache>0</expiration-cache>
+		<supports>
+			<mime-type>text/html</mime-type>
+			<portlet-mode>VIEW</portlet-mode>
+			<portlet-mode>EDIT</portlet-mode>
+			<portlet-mode>HELP</portlet-mode>
+		</supports>
+		<resource-bundle></resource-bundle>
+		<portlet-info>
+			<title>AccountManagement</title>
+			<short-title>AccountManagement</short-title>
+		</portlet-info>
+	</portlet>
+</portlet-app>

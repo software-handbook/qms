@@ -1,0 +1,265 @@
+/*For IE8*/
+.navigationArea
+{
+    position: relative;
+    z-index:1000;/* Luon de che do de len trang khi hien thi menu*/
+}
+
+/* Styles for top menu */
+.dmRootmenu
+{
+    background: url(images/header.png) repeat-x center;
+    padding-left: 2px;
+    padding-top: 0px;
+    height: 28px;
+    padding-bottom: 0px;
+}
+.dmRootmenu a
+{
+   color: #003366;
+}
+.dmRootmenuHover
+{
+    background: url(images/HeaderHover.png) repeat-x center;
+    padding-right: 5px;
+    padding-top: 0px;
+    height: 28px;
+    padding-bottom: 0px;
+    -webkit-border-radius: 7px 7px 7px 7px;
+    -moz-border-radius: 7px 7px 7px 7px;
+    -khtml-border-radius: 7px 7px 7px 7px;
+    border-radius: 7px 7px 7px 7px;
+}
+.dmRootmenuHover a:hover
+{
+    color: #000;
+}
+.dmRootItem
+{
+    padding-left: 0px;
+    padding-right: 10px;
+    font-size: 11px;
+    font-weight: bold;
+    height: 28px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.dmSubmenu
+{
+    position: absolute;
+    border: solid 1px #BFBFBF;
+    background-color: #FFFFFF;
+    background: url(../../images/menu/msmback.gif) repeat-y;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-bottom: 1px;
+}
+.dmSubmenuTop
+{
+    background-color: #FFFFFF;
+}
+
+.dmItem1
+{
+    margin: 0px;
+    position: relative;
+    z-index: 999;
+    border: solid 1px transparent;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 5px;
+}
+.dmItem1hover
+{
+    padding-top: 1px;
+    margin: 0px;
+    position: relative;
+    z-index: 999;
+    background: url(images/HeaderHover.png) repeat-x center;
+    -webkit-border-radius: 7px 7px 7px 7px;
+    -moz-border-radius: 7px 7px 7px 7px;
+    -khtml-border-radius: 7px 7px 7px 7px;
+    border-radius: 7px 7px 7px 7px;
+}
+.dmItem1hover a:hover
+{
+    color: #003300;
+}
+.dmText1
+{
+    padding: 1px 14px 1px 14px;
+    font: normal 12px Trebuchet MS, Tahoma, Arial, Helvetica;
+    color: #5B5B5B;
+}
+.dmText2
+{
+    padding: 1px 14px 1px 14px;
+    font: normal 12px Trebuchet MS, Tahoma, Arial, Helvetica;
+    color: #000000;
+}
+a.dmText1
+{
+    padding: 1px 14px 1px 14px;
+    font: normal 12px Trebuchet MS, Tahoma, Arial, Helvetica;
+    color: #000000;
+}
+
+.dmTextTop1
+{
+    font: normal 12px Trebuchet MS, Tahoma, Arial, Helvetica;
+    color: #5B5B5B;
+}
+.dmTextTop2, li:hover .dmTextTop1
+{
+    font: normal 12px Trebuchet MS, Tahoma, Arial, Helvetica;
+    color: #000000;
+}
+
+/* Top-level items */
+
+.dmItemTop1
+{
+    text-align: center;
+    cursor: default;
+}
+.dmItemTop1:hover
+{
+    border-right: solid 1px #EFEFEF;
+    text-align: center;
+    cursor: default;
+    background-image: url(../images/mitemback.gif);
+    background-color: #AAAAAA;
+}
+
+.dmItemTop2
+{
+    border-right: solid 1px #EFEFEF;
+    text-align: center;
+    cursor: default;
+    background-image: url(../images/mitemback.gif);
+}
+.dmItemTop2:hover
+{
+    border-right: solid 1px #EFEFEF;
+    text-align: center;
+    cursor: default;
+    background-image: url(../images/mitemback.gif);
+    background-color: #6EA7F3;
+}
+
+.dmItemTop3
+{
+    border-right: solid 1px #EFEFEF;
+    text-align: center;
+    cursor: default;
+    background-image: url(../images/mitemback.gif);
+}
+.dmItemTop3:hover
+{
+    border-right: solid 1px #EFEFEF;
+    text-align: center;
+    cursor: default;
+    background-image: url(../images/mitemback.gif);
+    background-color: #FF9797;
+}
+
+.dmItemTop4
+{
+    border-right: solid 1px #EFEFEF;
+    text-align: center;
+    cursor: default;
+    background-image: url(../images/mitemback.gif);
+}
+.dmItemTop4:hover
+{
+    border-right: solid 1px #EFEFEF;
+    text-align: center;
+    cursor: default;
+    background-image: url(../images/mitemback.gif);
+    background-color: #86D483;
+}
+
+.dmItemTop5
+{
+    border-right: solid 1px #EFEFEF;
+    text-align: center;
+    cursor: default;
+    background-image: url(../images/mitemback.gif);
+}
+.dmItemTop5:hover
+{
+    border-right: solid 1px #EFEFEF;
+    text-align: center;
+    cursor: default;
+    background-image: url(../images/mitemback.gif);
+    background-color: #FFD15B;
+}
+
+.dmItemTop6
+{
+    border-right: solid 1px #EFEFEF;
+    text-align: center;
+    cursor: default;
+    background-image: url(../images/mitemback.gif);
+}
+.dmItemTop6:hover
+{
+    border-right: solid 1px #EFEFEF;
+    text-align: center;
+    cursor: default;
+    background-image: url(../images/mitemback.gif);
+    background-color: #DEACED;
+}
+
+
+.menuRight
+{
+    font: normal 11px Trebuchet MS, Tahoma, Arial, Helvetica;
+    text-align: center;
+    padding: 14px 9px 9px 9px;
+    cursor: default;
+}
+
+/* Styles for EOWebMenu */
+.dmRootmenuEO
+{
+    background-color: transparent;
+    border-width: 0px;
+    padding-left: 0px;
+    padding-right: 1px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.dmRootItemEO
+{
+    margin: 0px;
+    padding-left: 0px;
+    padding-right: 3px;
+    font-size: 11px;
+    font-weight: bold;
+}
+.dmSubMenuEO
+{
+    background-color: #F6F6F6;
+    border-bottom-color: #002D96;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-color: #002D96;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: #002D96;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-color: #002D96;
+    border-top-style: solid;
+    border-top-width: 1px;
+    color: black;
+    cursor: hand;
+    font-family: Tahoma;
+    font-size: 8pt;
+    padding-bottom: 1px;
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-top: 1px;
+}
+/*--------end Styles for EOWebMenu-----------*/

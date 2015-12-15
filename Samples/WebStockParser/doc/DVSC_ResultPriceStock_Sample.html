@@ -1,0 +1,116 @@
+ <!-- Nội dung cửa sổ phải -->
+        <div id="mainbody-right">
+            <div id="biendongphieu" style="height: auto">
+                <div class="biendongphieu-title">
+                    Truy vấn giá</div>
+                <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                    <tr>
+                        <td style="height: 20px; color: Red; font-size: 16px; padding-left: 40px">
+                            Nhấn "Tìm kiếm" để cập nhật giá của cổ phiếu lựa chọn
+                        </td>
+                    </tr>                    
+                    <tr>
+                        <td style="height: 20px">
+                            <table border="0" cellspacing="0" cellpadding="0" width="100%">                                
+                                <tr><td style="height:10px"></td></tr>
+                                <tr>
+                                    <td style="padding-left: 100px;">
+                                        <span style="color: #000099; font-weight: bold; font-size: 12px; font-family: Arial;">Mã CK&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <input name="ctl00$ContentPlaceHolder1$txtMaCK" type="text" value="ACB" id="ctl00_ContentPlaceHolder1_txtMaCK" class="tb-bg-side" style="font-family:Arial;font-size:12px;width:80px;" /></span>
+                                    </td>
+                                </tr>
+                                <tr><td style="height:5px"></td></tr>
+                                <tr>                                
+                                    <td style="padding-left:100px;">
+                                    
+                                        <span style="color: #000099; font-weight: bold; font-size: 12px; font-family: Arial;">Từ ngày</span>&nbsp;&nbsp;
+                                        <input name="ctl00$ContentPlaceHolder1$txtTuNgay" type="text" value="20/09/2011" id="ctl00_ContentPlaceHolder1_txtTuNgay" style="font-family:Arial;font-size:12px;width:80px;" />
+                                        <img src="../images/calendar.gif" id="imgTuNgay" style="cursor: pointer; border: 1px solid red;"
+                                            title="Date selector" alt="Calendar" />
+                                        &nbsp; &nbsp;
+
+                                        <script language="javascript" type="text/javascript">
+                                            Calendar.setup({
+                                                inputField     :    "ctl00_ContentPlaceHolder1_txtTuNgay",      // id of the input field
+                                                ifFormat       :    "%d/%m/%Y",       // format of the input field
+                                                showsTime      :    true,            // will display a time selector
+                                                button         :    "imgTuNgay",   // trigger for the calendar (button ID)
+                                                singleClick    :    false,           // double-click mode
+                                                step           :    1                // show all years in drop-down boxes (instead of every other year as default)
+                                            });
+                                        </script>
+                                            
+                                        <span style="color: #000099; font-weight: bold; font-size: 12px; font-family: Arial;">Từ ngày</span>&nbsp;&nbsp;                                
+                                        <input name="ctl00$ContentPlaceHolder1$txtDenNgay" type="text" value="20/10/2011" id="ctl00_ContentPlaceHolder1_txtDenNgay" style="font-family:Arial;font-size:12px;width:80px;" />
+                                        <img src="../images/calendar.gif" id="imgDenNgay" style="cursor: pointer; border: 1px solid red;"
+                                            title="Date selector" alt="Calendar" />
+
+                                        <script language="javascript" type="text/javascript">
+                                            Calendar.setup({
+                                                inputField     :    "ctl00_ContentPlaceHolder1_txtDenNgay",      // id of the input field
+                                                ifFormat       :    "%d/%m/%Y",       // format of the input field
+                                                showsTime      :    true,            // will display a time selector
+                                                button         :    "imgDenNgay",   // trigger for the calendar (button ID)
+                                                singleClick    :    false,           // double-click mode
+                                                step           :    1                // show all years in drop-down boxes (instead of every other year as default)
+                                            });
+                                        </script>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <input type="submit" name="ctl00$ContentPlaceHolder1$btnSearch" value="Tìm kiếm" id="ctl00_ContentPlaceHolder1_btnSearch" class="dvscButton" style="font-family:Arial;font-size:12px;" />
+                                    </td>                                    
+                                </tr>                                                                
+                            </table>
+                        </td>
+                    </tr>
+                    <tr><td style="height:10px"></td></tr>
+                    <tr>                    
+                        <td>
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td align="center">
+                                        <div>
+	<table class="GridBorder" cellspacing="0" cellpadding="1" rules="all" border="1" id="ctl00_ContentPlaceHolder1_grdPrice" style="width:90%;border-collapse:collapse;">
+		<tr>
+			<th class="GridHeader" scope="col">Ng&#224;y</th><th class="GridHeader" scope="col">Gi&#225; TC</th><th class="GridHeader" scope="col">Gi&#225; Trần</th><th class="GridHeader" scope="col">Gi&#225; S&#224;n</th><th class="GridHeader" scope="col">Giá đóng cửa</th><th class="GridHeader" scope="col">Khối lượng</th>
+		</tr><tr class="GridRow">
+			<td align="center" style="color:Black;width:16%;">20/10/2011</td><td align="right" style="color:Black;width:16%;">22.30</td><td align="right" style="color:Black;width:16%;">23.80</td><td align="right" style="color:Black;width:16%;">20.80</td><td align="right" style="width:18%;"><span class="priceup">23.4</span></td><td align="right" style="width:25%;"><span class="priceup">977,300</span></td>
+		</tr><tr class="GridAlternating">
+			<td align="center" style="color:Black;width:16%;">19/10/2011</td><td align="right" style="color:Black;width:16%;">22.30</td><td align="right" style="color:Black;width:16%;">23.80</td><td align="right" style="color:Black;width:16%;">20.80</td><td align="right" style="width:18%;"><span class="priceup">23.4</span></td><td align="right" style="width:25%;"><span class="priceup">977,300</span></td>
+		</tr><tr class="GridRow">
+			<td align="center" style="color:Black;width:16%;">17/10/2011</td><td align="right" style="color:Black;width:16%;">22.30</td><td align="right" style="color:Black;width:16%;">23.80</td><td align="right" style="color:Black;width:16%;">20.80</td><td align="right" style="width:18%;"><span class="priceup">23.4</span></td><td align="right" style="width:25%;"><span class="priceup">977,300</span></td>
+		</tr><tr class="GridAlternating">
+			<td align="center" style="color:Black;width:16%;">12/10/2011</td><td align="right" style="color:Black;width:16%;">22.30</td><td align="right" style="color:Black;width:16%;">23.80</td><td align="right" style="color:Black;width:16%;">20.80</td><td align="right" style="width:18%;"><span class="priceup">23.4</span></td><td align="right" style="width:25%;"><span class="priceup">977,300</span></td>
+		</tr><tr class="GridRow">
+			<td align="center" style="color:Black;width:16%;">11/10/2011</td><td align="right" style="color:Black;width:16%;">22.30</td><td align="right" style="color:Black;width:16%;">23.80</td><td align="right" style="color:Black;width:16%;">20.80</td><td align="right" style="width:18%;"><span class="priceup">23.4</span></td><td align="right" style="width:25%;"><span class="priceup">977,300</span></td>
+		</tr><tr class="GridAlternating">
+			<td align="center" style="color:Black;width:16%;">10/10/2011</td><td align="right" style="color:Black;width:16%;">22.30</td><td align="right" style="color:Black;width:16%;">23.80</td><td align="right" style="color:Black;width:16%;">20.80</td><td align="right" style="width:18%;"><span class="priceup">23.4</span></td><td align="right" style="width:25%;"><span class="priceup">977,300</span></td>
+		</tr><tr class="GridRow">
+			<td align="center" style="color:Black;width:16%;">07/10/2011</td><td align="right" style="color:Black;width:16%;">22.30</td><td align="right" style="color:Black;width:16%;">23.80</td><td align="right" style="color:Black;width:16%;">20.80</td><td align="right" style="width:18%;"><span class="priceup">23.4</span></td><td align="right" style="width:25%;"><span class="priceup">977,300</span></td>
+		</tr><tr class="GridAlternating">
+			<td align="center" style="color:Black;width:16%;">06/10/2011</td><td align="right" style="color:Black;width:16%;">22.30</td><td align="right" style="color:Black;width:16%;">23.80</td><td align="right" style="color:Black;width:16%;">20.80</td><td align="right" style="width:18%;"><span class="priceup">23.4</span></td><td align="right" style="width:25%;"><span class="priceup">977,300</span></td>
+		</tr><tr class="GridRow">
+			<td align="center" style="color:Black;width:16%;">29/09/2011</td><td align="right" style="color:Black;width:16%;">22.30</td><td align="right" style="color:Black;width:16%;">23.80</td><td align="right" style="color:Black;width:16%;">20.80</td><td align="right" style="width:18%;"><span class="priceup">23.4</span></td><td align="right" style="width:25%;"><span class="priceup">977,300</span></td>
+		</tr><tr class="GridAlternating">
+			<td align="center" style="color:Black;width:16%;">28/09/2011</td><td align="right" style="color:Black;width:16%;">22.30</td><td align="right" style="color:Black;width:16%;">23.80</td><td align="right" style="color:Black;width:16%;">20.80</td><td align="right" style="width:18%;"><span class="priceup">23.4</span></td><td align="right" style="width:25%;"><span class="priceup">977,300</span></td>
+		</tr><tr class="GridRow">
+			<td align="center" style="color:Black;width:16%;">27/09/2011</td><td align="right" style="color:Black;width:16%;">22.30</td><td align="right" style="color:Black;width:16%;">23.80</td><td align="right" style="color:Black;width:16%;">20.80</td><td align="right" style="width:18%;"><span class="priceup">23.4</span></td><td align="right" style="width:25%;"><span class="priceup">977,300</span></td>
+		</tr><tr class="GridAlternating">
+			<td align="center" style="color:Black;width:16%;">26/09/2011</td><td align="right" style="color:Black;width:16%;">22.30</td><td align="right" style="color:Black;width:16%;">23.80</td><td align="right" style="color:Black;width:16%;">20.80</td><td align="right" style="width:18%;"><span class="priceup">23.4</span></td><td align="right" style="width:25%;"><span class="priceup">977,300</span></td>
+		</tr><tr class="GridRow">
+			<td align="center" style="color:Black;width:16%;">23/09/2011</td><td align="right" style="color:Black;width:16%;">22.30</td><td align="right" style="color:Black;width:16%;">23.80</td><td align="right" style="color:Black;width:16%;">20.80</td><td align="right" style="width:18%;"><span class="priceup">23.4</span></td><td align="right" style="width:25%;"><span class="priceup">977,300</span></td>
+		</tr>
+	</table>
+</div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>                    
+                </table>                                                
+            </div>
+            
+            <img src="../images/boxright_large_bottom.jpg" align="left" />
+            <br />
+            <br />
+        </div>
+    </div>
+

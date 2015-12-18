@@ -5,7 +5,7 @@
 	<artifactId>acma</artifactId>
 	<version>0.1</version>
 	<packaging>pom</packaging>
-	<name>sakai-spring-maven-archetype</name>
+	<name>acma-spingmvc-sakai</name>
 	<description>Archetype to generate a project with sakai and spring</description>
 
 	<parent>
@@ -42,7 +42,7 @@
 			<dependency>
 				<groupId>log4j</groupId>
 				<artifactId>log4j</artifactId>
-				<version>1.2.14</version>
+				<version>1.2.16</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>

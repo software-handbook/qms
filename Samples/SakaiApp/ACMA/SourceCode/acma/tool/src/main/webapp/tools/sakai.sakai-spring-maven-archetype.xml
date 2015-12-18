@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <registration>
 	<tool id="sakai.acma" 
-		title="My Sakai App acma-tool" 
-		description="This description is set in the acma-tool registration file, found in the webapp/tools directory">
+		title="Account management" 
+		description="Manage groups and accounts in LDAP">
 
 		<category name="course" />
       	<category name="project" />

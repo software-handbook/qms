@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>m.k.s.sakaiapp.upload</groupId>
+	<artifactId>SakaiUpload</artifactId>
+	<version>1.0-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<name>sakai-spring-maven-archetype</name>
+	<description>Archetype to generate a project with sakai and spring</description>
+
+	<parent>
+		<groupId>org.sakaiproject.purepoms</groupId>
+		<artifactId>sakai-standard-tool</artifactId>
+		<version>2.8.7</version>
+	</parent>
+
+	<dependencyManagement>
+		<dependencies>
+
+			<!-- project dependencies -->
+			<dependency>
+				<groupId>m.k.s.sakaiapp.upload</groupId>
+				<artifactId>SakaiUpload-api</artifactId>
+				<version>1.0-SNAPSHOT</version>
+				<scope>provided</scope>
+			</dependency>
+
+			<dependency>
+				<groupId>m.k.s.sakaiapp.upload</groupId>
+				<artifactId>SakaiUpload-impl</artifactId>
+				<version>1.0-SNAPSHOT</version>
+				<scope>runtime</scope>
+			</dependency>
+
+			<dependency>
+				<groupId>org.projectlombok</groupId>
+				<artifactId>lombok</artifactId>
+				<version>1.16.14</version>
+<!-- 				<type>jar</type> -->
+<!-- 				<scope>provided</scope> -->
+			</dependency>
+			<dependency>
+				<groupId>log4j</groupId>
+				<artifactId>log4j</artifactId>
+				<version>1.2.17</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+	<properties>
+	    <sakai.kernel.version>11.3</sakai.kernel.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
+	<repositories>
+		<repository>
+			<id>sakai-maven</id>
+			<name>Sakai Maven Repo</name>
+			<layout>default</layout>
+			<url>http://source.sakaiproject.org/maven2</url>
+			<releases>
+			</releases>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
+	</repositories>
+
+	<pluginRepositories>
+		<pluginRepository>
+			<id>Sakai Plugin Repo</id>
+			<url>http://source.sakaiproject.org/maven2</url>
+			<releases>
+			</releases>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</pluginRepository>
+	</pluginRepositories>
+
+
+  <modules>
+    <module>api</module>
+    <module>impl</module>
+    <module>tool</module>
+    <module>pack</module>
+  </modules>
+  
+</project>
